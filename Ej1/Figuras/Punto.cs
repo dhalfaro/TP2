@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej1
+namespace Ej1.Figuras
 {
     class Punto
     {

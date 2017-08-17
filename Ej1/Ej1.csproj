@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circulo.cs" />
+    <Compile Include="Fachadas\Interfaz.cs" />
+    <Compile Include="Figuras\Circulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Punto.cs" />
-    <Compile Include="Triangulo.cs" />
+    <Compile Include="Figuras\Punto.cs" />
+    <Compile Include="Figuras\Triangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
