@@ -27,11 +27,11 @@ namespace Ej1.Figuras
         }
         public double Area
         {
-            get { return 4; }
+            get { return Math.PI * Math.Pow(Radio, 2); }
         }
         public double Perimetro
         {
-            get { return 4; }
+            get { return 2 * Math.PI * Radio; }
         }
     }
 }
